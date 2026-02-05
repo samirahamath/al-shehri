@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="الشهري لصيانة السيارات الفاخرة - خدمات صيانة وإصلاح متميزة للسيارات الفاخرة والرياضية. حرفية استثنائية تلتقي بأحدث التقنيات.">
+    <meta name="keywords" content="صيانة سيارات فاخرة, ميكانيكي سيارات, إصلاح سيارات, صيانة بورش, صيانة فيراري, الشهري">
+    <title>الشهري | صيانة السيارات الفاخرة</title>
+
+    <!-- Google Fonts - Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- التحميل -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <span class="loader-text">الشهري</span>
+        </div>
+    </div>
+
+    <!-- شريط التنقل -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <span class="logo-icon"><i class="fas fa-car"></i></span>
+                    <span class="logo-text">الشهري</span>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">من نحن</a></li>
+                    <li><a href="#services" class="nav-link">خدماتنا</a></li>
+                    <li><a href="#gallery" class="nav-link">معرض الأعمال</a></li>
+                    <li><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+
+                <a href="tel:+966500000000" class="nav-cta">
+                    <i class="fas fa-phone"></i>
+                    <span>اتصل الآن</span>
+                </a>
+
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+                alt="سيارة فاخرة">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span><i class="fas fa-star"></i> خدمة متميزة منذ عام ٢٠٠٥</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">دقة.</span>
+                <span class="title-line">أداء.</span>
+                <span class="title-line accent">إتقان.</span>
+            </h1>
+            <p class="hero-subtitle">حيث تلتقي الفخامة بالخبرة. نقدم خدمات عالمية المستوى لأرقى السيارات في العالم.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <span>احجز موعدك</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <a href="#services" class="btn btn-outline">
+                    <span>خدماتنا</span>
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="18">٠</span>
+                    <span class="stat-label">سنة خبرة</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5000">٠</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">سيارة تم صيانتها</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">٠</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">رضا العملاء</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>تصفح</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- شعارات العلامات التجارية -->
+    <section class="brands">
+        <div class="container">
+            <div class="brands-slider">
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/ferrari-logo.png" alt="فيراري">
+                </div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/lamborghini-logo.png"
+                        alt="لامبورغيني"></div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/porsche-logo.png" alt="بورش"></div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/mercedes-benz-logo.png"
+                        alt="مرسيدس"></div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/bmw-logo.png" alt="بي إم دبليو">
+                </div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/audi-logo.png" alt="أودي"></div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/bentley-logo.png" alt="بنتلي">
+                </div>
+                <div class="brand-item"><img src="https://www.carlogos.org/car-logos/rolls-royce-logo.png"
+                        alt="رولز رويس"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- من نحن -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img main-img">
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80"
+                            alt="فني يعمل على سيارة">
+                    </div>
+                    <div class="about-img secondary-img">
+                        <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=600&q=80"
+                            alt="ورشة العمل">
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">+١٨</span>
+                        <span class="exp-text">عام من التميز</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="section-tag">من نحن</div>
+                    <h2 class="section-title">الحرفية تلتقي <span class="accent">بالابتكار</span></h2>
+                    <p class="about-text lead">الشهري لصيانة السيارات الفاخرة هي الوجهة الأولى لعشاق السيارات الذين لا
+                        يقبلون إلا بالتميز.</p>
+                    <p class="about-text">تأسسنا في عام ٢٠٠٥، وبنينا سمعتنا على التزام لا يتزعزع بالجودة والدقة ورضا
+                        العملاء. مرافقنا المتطورة مجهزة بأحدث أدوات التشخيص والتقنيات، مما يضمن قدرتنا على صيانة أكثر
+                        السيارات تطوراً.</p>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>خبراء معتمدون</h4>
+                                <p>فنيون مدربون في المصانع بشهادات متخصصة</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>قطع غيار أصلية</h4>
+                                <p>نستخدم فقط قطع الغيار الأصلية والمعتمدة</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>ضمان شامل</h4>
+                                <p>ضمان شامل على جميع الخدمات والقطع</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        <span>احجز زيارتك</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خدماتنا -->
+    <section id="services" class="services">
+        <div class="services-bg"></div>
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-tag">خبراتنا</div>
+                <h2 class="section-title">خدماتنا <span class="accent">المتميزة</span></h2>
+                <p class="section-subtitle">رعاية شاملة لسيارتك الفاخرة، تُقدم بدقة وشغف</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <h3>الصيانة الدورية الشاملة</h3>
+                    <p>فحص شامل لصحة السيارة، تغيير الزيت، استبدال الفلاتر، وبرامج صيانة دورية مصممة خصيصاً لسيارتك.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> زيت صناعي متميز</li>
+                        <li><i class="fas fa-check"></i> فحص متعدد النقاط</li>
+                        <li><i class="fas fa-check"></i> تعبئة جميع السوائل</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">الأكثر طلباً</div>
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>التشخيص والإلكترونيات</h3>
+                    <p>تشخيص حاسوبي متقدم باستخدام أجهزة خاصة بكل علامة تجارية لتحديد وحل المشاكل الإلكترونية المعقدة.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> برمجة وحدة التحكم</li>
+                        <li><i class="fas fa-check"></i> معايرة الحساسات</li>
+                        <li><i class="fas fa-check"></i> تحديث البرامج</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>تعديلات الأداء</h3>
+                    <p>أطلق العنان لإمكانيات سيارتك الحقيقية مع ترقيات الأداء المتخصصة وخدمات الضبط الدقيق.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> إعادة برمجة المحرك</li>
+                        <li><i class="fas fa-check"></i> أنظمة العادم</li>
+                        <li><i class="fas fa-check"></i> ضبط نظام التعليق</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car-crash"></i>
+                    </div>
+                    <h3>الفرامل والتعليق</h3>
+                    <p>أنظمة فرامل متميزة ومكونات تعليق لضمان التحكم الأمثل والسلامة ومتعة القيادة.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> خدمة الفرامل والأقراص</li>
+                        <li><i class="fas fa-check"></i> تركيب نوابض رياضية</li>
+                        <li><i class="fas fa-check"></i> خدمة ترصيص العجلات</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>التكييف والتبريد</h3>
+                    <p>خدمة وإصلاح متخصصة للتكييف للحفاظ على راحة المقصورة الفاخرة في جميع الأحوال الجوية.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> شحن غاز التكييف</li>
+                        <li><i class="fas fa-check"></i> خدمة الضاغط</li>
+                        <li><i class="fas fa-check"></i> جودة هواء المقصورة</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>التلميع والحماية</h3>
+                    <p>خدمات تلميع احترافية وعلاجات حماية للحفاظ على المظهر الأنيق لسيارتك.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> طلاء السيراميك</li>
+                        <li><i class="fas fa-check"></i> تصحيح الطلاء</li>
+                        <li><i class="fas fa-check"></i> ترميم المقصورة</li>
+                    </ul>
+                    <a href="#contact" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض الأعمال -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-tag">أعمالنا</div>
+                <h2 class="section-title">معرض <span class="accent">الإنجازات</span></h2>
+                <p class="section-subtitle">لمحة عن عالمنا من الدقة والشغف</p>
+            </div>
+
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="service">الصيانة</button>
+                <button class="filter-btn" data-filter="restoration">الترميم</button>
+                <button class="filter-btn" data-filter="performance">الأداء</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item service" data-category="service">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80"
+                        alt="صيانة سيارة فاخرة">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">صيانة</span>
+                        <h4>بورش ٩١١ جي تي ٣</h4>
+                        <p>صيانة وفحص شامل</p>
+                    </div>
+                </div>
+                <div class="gallery-item restoration" data-category="restoration">
+                    <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=600&q=80"
+                        alt="ترميم كلاسيكي">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">ترميم</span>
+                        <h4>فيراري كلاسيك</h4>
+                        <p>ترميم كامل للهيكل</p>
+                    </div>
+                </div>
+                <div class="gallery-item performance" data-category="performance">
+                    <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=80"
+                        alt="تحسين الأداء">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">أداء</span>
+                        <h4>بي إم دبليو إم٤</h4>
+                        <p>تركيب باقة الأداء</p>
+                    </div>
+                </div>
+                <div class="gallery-item service" data-category="service">
+                    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=600&q=80"
+                        alt="صيانة مرسيدس">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">صيانة</span>
+                        <h4>مرسيدس إيه إم جي جي تي</h4>
+                        <p>صيانة سنوية</p>
+                    </div>
+                </div>
+                <div class="gallery-item restoration" data-category="restoration">
+                    <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80"
+                        alt="لامبورغيني">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">ترميم</span>
+                        <h4>لامبورغيني هوراكان</h4>
+                        <p>تصحيح الطلاء وسيراميك</p>
+                    </div>
+                </div>
+                <div class="gallery-item performance" data-category="performance">
+                    <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=600&q=80"
+                        alt="أداء أودي">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">أداء</span>
+                        <h4>أودي آر إس ٧</h4>
+                        <p>ضبط المرحلة الثانية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- لماذا نحن -->
+    <section class="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <div class="section-tag">لماذا نحن</div>
+                    <h2 class="section-title">تميز <span class="accent">الشهري</span></h2>
+                    <p class="lead">نحن لا نصلح السيارات فحسب - بل نعتني بتحف فنية على عجلات باحترام واهتمام يستحقونه.
+                    </p>
+
+                    <div class="why-us-list">
+                        <div class="why-item">
+                            <div class="why-number">٠١</div>
+                            <div class="why-content">
+                                <h4>خبرة حصرية</h4>
+                                <p>فنيونا متخصصون مدربون في المصانع مع عقود من الخبرة المشتركة في السيارات الفاخرة
+                                    والرياضية.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">٠٢</div>
+                            <div class="why-content">
+                                <h4>تقنية متطورة</h4>
+                                <p>نستثمر في أحدث معدات التشخيص والأدوات لضمان خدمة دقيقة وفعالة في كل مرة.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">٠٣</div>
+                            <div class="why-content">
+                                <h4>تواصل شفاف</h4>
+                                <p>ستتلقى شروحات مفصلة وتحديثات طوال عملية الخدمة، بدون رسوم خفية.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <div class="why-number">٠٤</div>
+                            <div class="why-content">
+                                <h4>خدمة كونسيرج</h4>
+                                <p>استمتع بخدمة التوصيل والاستلام المجانية، سيارات بديلة، وتجربة صالة انتظار فاخرة.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-us-image">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=800&q=80"
+                        alt="خدمة متميزة">
+                    <div class="floating-card">
+                        <div class="card-icon"><i class="fas fa-award"></i></div>
+                        <div class="card-content">
+                            <h5>حائز على جوائز</h5>
+                            <p>أفضل خدمة فاخرة ٢٠٢٤</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- آراء العملاء -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header center">
+                <div class="section-tag">آراء العملاء</div>
+                <h2 class="section-title">ماذا يقول <span class="accent">عملاؤنا</span></h2>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"الشهري يصون سيارتي البورش منذ ثلاث سنوات. اهتمامهم بالتفاصيل استثنائي،
+                        وأنا دائماً واثق من ترك سيارتي في أيديهم."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h5>عبدالله الراشد</h5>
+                            <span>مالك بورش ٩١١ تيربو إس</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"الفريق شخّص وأصلح مشكلة لم تستطع ورشتان أخريان تحديدها. محترفون حقيقيون
+                        يهتمون بحرفتهم."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h5>خالد محمد</h5>
+                            <span>مالك مرسيدس إيه إم جي جي تي</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"من اللحظة التي تدخل فيها، تعرف أن هذا مكان متميز. الخدمة والتواصل
+                        والنتائج كلها من الدرجة الأولى. أنصح بهم بشدة!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h5>فيصل الدوسري</h5>
+                            <span>مالك بنتلي كونتيننتال</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- دعوة للعمل -->
+    <section class="cta">
+        <div class="cta-bg">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1920&q=80"
+                alt="سيارة فاخرة">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>هل أنت مستعد لتجربة <span class="accent">التميز؟</span></h2>
+                <p>احجز موعدك اليوم واكتشف لماذا الشهري هو الخيار الموثوق لعشاق السيارات الفاخرة.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">
+                        <span>احجز موعدك</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="tel:+966500000000" class="btn btn-outline-light btn-large">
+                        <i class="fas fa-phone"></i>
+                        <span>اتصل بنا الآن</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصل معنا -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-tag">تواصل معنا</div>
+                    <h2 class="section-title">لنبقى <span class="accent">على اتصال</span></h2>
+                    <p class="lead">نحن هنا لمساعدتك في جميع احتياجات سيارتك الفاخرة. تواصل معنا عبر أي من القنوات
+                        التالية:</p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>زيارة ورشتنا</h4>
+                                <p>طريق الملك فهد، حي العليا<br>الرياض، المملكة العربية السعودية</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>اتصل بنا</h4>
+                                <p><a href="tel:+966500000000">٠٥٠٠ ٠٠٠ ٠٠٠</a><br><a href="tel:+966112345678">٠١١ ٢٣٤
+                                        ٥٦٧٨</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>راسلنا</h4>
+                                <p><a href="mailto:info@alshehri.com">info@alshehri.com</a><br><a
+                                        href="mailto:service@alshehri.com">service@alshehri.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>ساعات العمل</h4>
+                                <p>السبت - الخميس: ٨ص - ٨م<br>الجمعة: مغلق</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>طلب موعد</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">الاسم الكامل</label>
+                                <input type="text" id="name" name="name" placeholder="اسمك" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">رقم الجوال</label>
+                                <input type="tel" id="phone" name="phone" placeholder="رقم جوالك" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" placeholder="بريدك الإلكتروني" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="car-make">نوع السيارة</label>
+                                <select id="car-make" name="car-make">
+                                    <option value="">اختر النوع</option>
+                                    <option value="ferrari">فيراري</option>
+                                    <option value="lamborghini">لامبورغيني</option>
+                                    <option value="porsche">بورش</option>
+                                    <option value="mercedes">مرسيدس بنز</option>
+                                    <option value="bmw">بي إم دبليو</option>
+                                    <option value="audi">أودي</option>
+                                    <option value="bentley">بنتلي</option>
+                                    <option value="rolls-royce">رولز رويس</option>
+                                    <option value="other">أخرى</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">نوع الخدمة</label>
+                                <select id="service" name="service">
+                                    <option value="">اختر الخدمة</option>
+                                    <option value="maintenance">صيانة دورية</option>
+                                    <option value="diagnostics">تشخيص</option>
+                                    <option value="performance">تعديلات الأداء</option>
+                                    <option value="brake-suspension">فرامل وتعليق</option>
+                                    <option value="detailing">تلميع وحماية</option>
+                                    <option value="other">أخرى</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">تفاصيل إضافية</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="أخبرنا عن سيارتك والخدمة التي تحتاجها..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>إرسال الطلب</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الخريطة -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.6750726968385!2d46.6709!3d24.7136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQyJzQ5LjAiTiA0NsKwNDAnMTUuMCJF!5e0!3m2!1sar!2ssa!4v1620000000000!5m2!1sar!2ssa"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" title="موقع الشهري">
+            </iframe>
+            <div class="map-overlay-card">
+                <div class="map-card-content">
+                    <h4><i class="fas fa-map-marker-alt"></i> موقعنا</h4>
+                    <p>طريق الملك فهد، حي العليا<br>الرياض، المملكة العربية السعودية</p>
+                    <a href="https://www.google.com/maps/dir//24.7136,46.6709" target="_blank"
+                        class="btn btn-primary btn-small">
+                        <i class="fas fa-directions"></i> احصل على الاتجاهات
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-car"></i></span>
+                        <span class="logo-text">الشهري</span>
+                    </a>
+                    <p>حيث تلتقي الدقة بالشغف. سيارتك الفاخرة لا تستحق أقل من الأفضل.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#gallery">معرض الأعمال</a></li>
+                        <li><a href="#testimonials">آراء العملاء</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#services">الصيانة الشاملة</a></li>
+                        <li><a href="#services">التشخيص</a></li>
+                        <li><a href="#services">تعديلات الأداء</a></li>
+                        <li><a href="#services">الفرامل والتعليق</a></li>
+                        <li><a href="#services">التكييف</a></li>
+                        <li><a href="#services">التلميع والحماية</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>معلومات التواصل</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> طريق الملك فهد، الرياض</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+966500000000">٠٥٠٠ ٠٠٠ ٠٠٠</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@alshehri.com">info@alshehri.com</a>
+                        </li>
+                        <li><i class="fas fa-clock"></i> السبت-الخميس: ٨ص - ٨م</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© ٢٠٢٤ الشهري لصيانة السيارات الفاخرة. جميع الحقوق محفوظة.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">سياسة الخصوصية</a>
+                    <a href="#">شروط الاستخدام</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- زر العودة للأعلى -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- السكريبتات -->
+    <script src="script.js"></script>
+</body>
+
+</html>
