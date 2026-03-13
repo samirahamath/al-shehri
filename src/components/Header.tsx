@@ -3,7 +3,7 @@ import './Header.css';
 import { useState, useEffect } from 'react';
 
 export default function Header() {
-  const { t, toggleLanguage, lang, isRTL } = useLanguage();
+  const { t, toggleLanguage, lang } = useLanguage();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
